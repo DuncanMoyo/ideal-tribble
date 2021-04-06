@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default Stylesheet.create({
+export default StyleSheet.create({
   bodyText: {
     fontFamily: "open-sans",
     color: "red",

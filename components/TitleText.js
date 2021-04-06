@@ -7,7 +7,7 @@ const TitleText = (props) => {
   );
 };
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
   title: {
     fontFamily: "open-sans-bold",
     fontSize: 18,
