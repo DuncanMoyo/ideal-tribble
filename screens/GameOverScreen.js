@@ -12,8 +12,12 @@ import MainButton from "../components/MainButton";
 import TitleText from "../components/TitleText";
 
 import Colors from "../constants/colors";
+import * as ScreenOrientation from 'expo-screen-orientation'
 
 const GameOverScreen = (props) => {
+
+  // ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT)
+
   return (
     <ScrollView>
       <View style={styles.screen}>
